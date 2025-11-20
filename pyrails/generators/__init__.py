@@ -1,0 +1,1 @@
+"""PyRails generators."""
