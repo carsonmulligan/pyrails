@@ -3,9 +3,7 @@
 ## Install
 
 ```bash
-git clone https://github.com/yourusername/pyrails.git
-cd pyrails
-pip install -e .
+pip install pyrails-mvc
 ```
 
 ## Create Your First App

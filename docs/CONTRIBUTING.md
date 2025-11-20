@@ -3,7 +3,7 @@
 ## Development Setup
 
 ```bash
-git clone https://github.com/yourusername/pyrails.git
+git clone https://github.com/carsonmulligan/pyrails.git
 cd pyrails
 pip install -e ".[dev]"
 ```
@@ -79,7 +79,7 @@ pyrails/
 
 1. **Fork and clone**
    ```bash
-   git clone https://github.com/yourusername/pyrails.git
+   git clone https://github.com/carsonmulligan/pyrails.git
    cd pyrails
    ```
 
