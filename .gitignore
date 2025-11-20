@@ -54,3 +54,4 @@ dmypy.json
 
 # Distribution
 *.whl
+pypi-publish-instructions.md
