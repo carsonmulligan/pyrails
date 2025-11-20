@@ -35,9 +35,9 @@ class ModelGenerator:
 
         self.model_name = classify(args[0])
         self.table_name = tableize(args[0])
-        self.fields = self._parse_fields(args[1:])
         self.app_path = Path.cwd()
         self.references = []
+        self.fields = self._parse_fields(args[1:])
 
     def generate(self):
         """Generate model and migration files."""
