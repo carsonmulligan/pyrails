@@ -86,7 +86,7 @@ async def index(
         if "show" in self.actions:
             actions_code.append('''
 
-@router.get("/{item_id}")
+@router.get("/{{item_id}}")
 async def show(
     item_id: int,
     session: AsyncSession = Depends(get_async_session)
@@ -122,7 +122,7 @@ async def create(
         if "update" in self.actions:
             actions_code.append('''
 
-@router.put("/{item_id}")
+@router.put("/{{item_id}}")
 async def update(
     item_id: int,
     session: AsyncSession = Depends(get_async_session)
@@ -145,7 +145,7 @@ async def update(
         if "destroy" in self.actions:
             actions_code.append('''
 
-@router.delete("/{item_id}")
+@router.delete("/{{item_id}}")
 async def destroy(
     item_id: int,
     session: AsyncSession = Depends(get_async_session)
